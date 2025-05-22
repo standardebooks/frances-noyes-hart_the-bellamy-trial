@@ -74,6 +74,11 @@ section[epub|type~="dedication"] p{
 	margin: 1em;
 }
 
+[epub|type~="z3998:dramatis-personae"] ul li header{
+	font-style: normal;
+	margin: 1em;
+}
+
 header{
 	font-variant: small-caps;
 	margin: 1em;
