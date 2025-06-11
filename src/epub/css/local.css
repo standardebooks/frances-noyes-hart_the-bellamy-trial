@@ -50,8 +50,13 @@ section[epub|type~="dedication"] > *{
 	}
 }
 
+/* Bespoke dedication styling */
 section[epub|type~="dedication"] p{
 	font-variant: all-small-caps;
+}
+
+section[epub|type~="dedication"] span:last-of-type{
+	font-size: larger;
 }
 
 /* Dramatis personae */
@@ -69,14 +74,12 @@ section[epub|type~="dedication"] p{
 	padding: 0;
 }
 
-[epub|type~="z3998:dramatis-personae"] ul li{
-	font-style: italic;
+[epub|type~="z3998:dramatis-personae"] ul li > p:first-of-type{
 	margin: 1em;
 }
 
-[epub|type~="z3998:dramatis-personae"] ul li header{
-	font-style: normal;
-	margin: 1em;
+[epub|type~="z3998:dramatis-personae"] span{
+	font-style: italic;
 }
 
 header{
