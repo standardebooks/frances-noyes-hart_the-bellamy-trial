@@ -28,43 +28,59 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Bellamy Trial</dc:title>
 		<meta property="file-as" refines="#title">Bellamy Trial, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Murder--Investigation--Fiction</dc:subject>
+		<dc:subject id="subject-2">Adultery--Fiction</dc:subject>
+		<dc:subject id="subject-3">Long Island (N.Y.)--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh2008107761</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2007100578</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008106613</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Mystery</meta>
+		<meta id="collection-1" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<dc:description id="description">A man and a woman are on trial for the murder of his wife, her friend.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Mimi Bellamy is dead—stabbed multiple times and discovered in a deserted cottage. Now, two people close to her are on trial for her murder: her husband, Stephen Bellamy, and her friend, Sue Ives. The prosecution claims they killed her out of revenge, supposedly after learning about her affair with Sue’s husband, Patrick. But the defense has its own story to tell.&lt;/p&gt;
+			&lt;p&gt;Over the course of an eight-day trial family members, friends, servants, and eyewitnesses take the stand, and with each testimony the story shifts, with every revelation the trial changes course. We experience it all through the eyes of a red-haired writer making her debut as a court reporter, and the veteran reporter seated next to her. For the both of them, and for us, the suspense lasts until the very end: did Stephen and Sue kill Mimi?&lt;/p&gt;
+			&lt;p&gt;With &lt;i&gt;The Bellamy Trial&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/frances-noyes-hart"&gt;Frances Noyes Hart&lt;/a&gt; wrote one of the very first legal thrillers. In writing it she was undoubtedly inspired by her husband, an attorney to whom she dedicated this book, but the main inspiration for &lt;i&gt;The Bellamy trial&lt;/i&gt; is the Hall–Mills murder case, a trial that was widely reported on at the time.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-US</dc:language>
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20120315</dc:source>
+		<dc:source>https://catalog.hathitrust.org/Record/006533871</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Bellamy_Trial</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Bellamy_Trial_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/frances-noyes-hart_the-bellamy-trial</meta>
 		<dc:creator id="author">Frances Noyes Hart</dc:creator>
 		<meta property="file-as" refines="#author">Hart, Frances Noyes</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Frances Newbold Noyes Hart</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Frances_Noyes_Hart</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/no95048084</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Harald Sohlberg</dc:contributor>
+		<meta property="file-as" refines="#artist">Sohlberg, Harald</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Harald_Sohlberg</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n92071523</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">David T. Jones</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Jones, David T.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Mary Meehan</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Meehan, Mary</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Al Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Haines, Al</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">The Online Distributed Proofreaders Canada Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Online Distributed Proofreaders Canada Team, The</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<meta property="se:url.homepage" refines="#transcriber-4">http://www.pgdpcanada.net</meta>
+		<dc:contributor id="producer-1">Bob Reus</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Reus, Bob</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.bobre.us</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
