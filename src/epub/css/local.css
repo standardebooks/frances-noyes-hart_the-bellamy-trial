@@ -55,7 +55,7 @@ section[epub|type~="dedication"] p{
 	font-variant: all-small-caps;
 }
 
-section[epub|type~="dedication"] span:last-of-type{
+section[epub|type~="dedication"] span{
 	font-size: larger;
 }
 
@@ -76,6 +76,10 @@ section[epub|type~="dedication"] span:last-of-type{
 
 [epub|type~="z3998:dramatis-personae"] ul li > p:first-of-type{
 	margin: 1em;
+}
+
+[epub|type~="z3998:dramatis-personae"] > ul > li > p:first-of-type{
+	font-style: italic;
 }
 
 [epub|type~="z3998:dramatis-personae"] span{
