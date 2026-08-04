@@ -43,7 +43,7 @@
 		<meta property="schema:genre">Mystery</meta>
 		<meta id="collection-1" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<dc:abstract>A man and a woman are on trial for the murder of his wife, her friend.</dc:abstract>
+		<meta property="schema:abstract">A man and a woman are on trial for the murder of his wife, her friend.</meta>
 		<dc:description>
 			&lt;p&gt;Mimi Bellamy is dead—stabbed multiple times and discovered in a deserted cottage. Now, two people close to her are on trial for her murder: her husband, Stephen Bellamy, and her friend, Sue Ives. The prosecution claims they killed her out of revenge, supposedly after learning about her affair with Sue’s husband, Patrick. But the defense has its own story to tell.&lt;/p&gt;
 			&lt;p&gt;Over the course of an eight-day trial family members, friends, servants, and eyewitnesses take the stand, and with each testimony the story shifts, with every revelation the trial changes course. We experience it all through the eyes of a red-haired writer making her debut as a court reporter, and the veteran reporter seated next to her. For the both of them, and for us, the suspense lasts until the very end: did Stephen and Sue kill Mimi?&lt;/p&gt;
