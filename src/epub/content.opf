@@ -82,7 +82,7 @@
 		<dc:contributor id="transcriber-4">The Online Distributed Proofreaders Canada Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Online Distributed Proofreaders Canada Team, The</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-		<link href="http://www.pgdpcanada.net/" refines="#transcriber-4" rel="schema:url"/>
+		<link href="https://www.pgdpcanada.net/" refines="#transcriber-4" rel="schema:url"/>
 		<dc:contributor id="producer-1">Bob Reus</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Reus, Bob</meta>
 		<link href="https://www.bobre.us/" refines="#producer-1" rel="schema:url"/>
